@@ -1,12 +1,12 @@
 ![Fritz!Box in Grafana Batch](./fritzbox-grafana.png)
 
 # Windows Batch: fbox_get-bytes-to-telegraf.cmd
-Ich wollte den Traffic meiner Fritz!Box gerne in Grafana anzeigen. Da die Boxen leider freiwillig kein SNMP sprechen, muss man die Daten manuell via UPNP abholen, das XML der Ausgabe parsen und die Werte dann (in meinem Fall nach Telegraf) schreiben. Im Moment ist das noch ein (ser einfaches) Batch Script, aber mein nächstes Projekt wird (ganz bestimmt!!11) die Übersetzung nach PowerShell 😂
+Ich wollte den Traffic meiner Fritz!Box gerne in Grafana anzeigen. Da die Boxen leider freiwillig kein SNMP sprechen, muss man die Daten manuell via UPNP abholen, das XML der Ausgabe parsen und die Werte dann (in meinem Fall nach Telegraf) schreiben. Im Moment ist das noch ein (sehr einfaches) Batch Script, aber mein nächstes Projekt wird (ganz bestimmt!!11) eine saubere Übersetzung nach PowerShell 😂
 
 Damit ich nicht jedesmal wenn ich das neu baue wieder am Syntax herumprobieren muss, hier das vollständige Setup.
 
 ## Prerequisites
-* Windows 10 / Server 2016
+* Windows
 * curl https://github.com/curl/curl-for-win (oder aus Chocolatey)
 
 ## Danke
